@@ -1,4 +1,6 @@
-var playlist = new Object({artistName: "songTitle"});
+var playlist = new Object(
+  {artistName: "songTitle"}
+);
 
 Object.assign({}, {'Phil Ochs': "Here's to the State of Mississippi"});
 
