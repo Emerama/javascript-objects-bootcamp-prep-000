@@ -6,11 +6,11 @@ var playlist = {
 function updatePlaylist(playlist, artistName, songTitle) {
   playlist['Phil Ochs'] = "Here's to the State of Mississippi";
   
-  return playlist
+  return playlist;
 }
 
 function removeFromPlaylist(playlist, artistName) {
-  delete playlist[kanye]
+  delete playlist[kanye];
   
-  return playlist
+  return playlist;
 }
