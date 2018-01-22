@@ -1,5 +1,5 @@
 var playlist = new Object(
-  {artistName: "songTitle"}
+  {'Fall Out Boy': 'Champion'}
 );
 
 Object.assign({}, {'Phil Ochs': "Here's to the State of Mississippi"});
