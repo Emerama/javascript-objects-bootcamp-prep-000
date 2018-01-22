@@ -1,8 +1,8 @@
 function destructivelyUpdateObjectWithKeyAndValue(obj, key, value) {
-  obj[key] = value
+  obj[key] = value;
  
-  return obj
-};
+  return obj;
+}
  
 const recipe = { eggs: 3 };
  
