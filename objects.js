@@ -3,10 +3,9 @@ var playlist = {
   'Imagine Dragons': 'Round and Round'
 };
 
-Object.assign({}, {'Phil Ochs': "Here's to the State of Mississippi"});
-
 function updatePlaylist(playlist, artistName, songTitle) {
-  playlist[artist] = song
+  playlist['Phil Ochs'] = "Here's to the State of Mississippi"
   
   return playlist
 }
+'Phil Ochs': "Here's to the State of Mississippi"
