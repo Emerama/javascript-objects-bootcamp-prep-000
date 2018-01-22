@@ -10,7 +10,7 @@ function updatePlaylist(playlist, artistName, songTitle) {
 }
 
 function removeFromPlaylist(playlist, artistName) {
-  delete playlist.Kanye = "Gold Digger";
+  delete playlist.kanye
   
   return playlist
 }
