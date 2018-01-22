@@ -1,7 +1,8 @@
-var meals = { 
-  breakfast: "oatmeal",
-  lunch: "avocado",
-  dinner:" avocado"
-};
+function destructivelyUpdateObjectWithKeyAndValue(obj, key, value) {
+  obj[key] = value
+  return obj
+}
 
-const firstMeal = "breakfast";
+const receipt = {eggs: 3}
+
+destructivelyUpdateObjectWithKeyAndValue(recipe, 'flour', '3 cups')
