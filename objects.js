@@ -1,1 +1,7 @@
-var meals = new Object({ breakfast: "oatmeal"});
+var meals = { 
+  breakfast: "oatmeal",
+  lunch: "avocado",
+  dinner:" avocado"
+};
+
+const firstMeal = "breakfast";
